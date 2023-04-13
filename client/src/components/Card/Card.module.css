@@ -1,0 +1,95 @@
+.container {
+  width: 250px;
+  height: 380px;
+  background-color: #f5f5f5;
+  border: 2px solid #bcbcbc;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.container:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.idcontainer {
+  background-color: #f7d02c;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #202020;
+  font-family: 'Pokemon Solid';
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.namecontainer {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f37021;
+}
+
+.namecontainer h2 {
+  font-family: 'Pokemon Solid';
+  font-size: 24px;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  margin: 0;
+}
+
+.imgcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 190px;
+  position: relative;
+  background-image: url("https://img.freepik.com/vector-premium/paisaje-dibujos-animados-playa-hermosa_18591-48742.jpg?w=2000");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imgcontainer img {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  bottom: -10px;
+  transform: rotate(-5deg);
+  z-index: 1;
+}
+
+.type1container,
+.type2container {
+  background-color: #f15854;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: 'Pokemon Solid';
+  font-size: 18px;
+  letter-spacing: 1px;
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.type1container {
+  left: 0;
+  border-radius: 0 10px 0 0;
+}
+
+.type2container {
+  right: 0;
+  border-radius: 10px 0 0 0;
+}

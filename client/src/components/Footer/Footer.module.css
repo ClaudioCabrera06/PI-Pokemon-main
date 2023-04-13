@@ -1,0 +1,42 @@
+.footer {
+  background-color: #FFCB05;
+  color: #2F3640;
+  display: flex;
+  flex-direction: row; /* Cambiar la dirección a horizontal */
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-height: 150px;
+  margin-top: 20px;
+}
+
+.yo {
+  margin: 5px 175px 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  width: 150px; /* Agregar un ancho fijo */
+}
+
+.boton {
+  border-radius: 50px;
+  width: px;
+  height: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px; /* Agregar un margen para separar los elementos */
+  border: 0; 
+  background-color: #FE4E4E;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+}
+
+.boton:hover {
+  background-color: #FFF;
+  color: #2F3640;
+  outline: solid 1px #2F3640;
+  box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.3);
+}

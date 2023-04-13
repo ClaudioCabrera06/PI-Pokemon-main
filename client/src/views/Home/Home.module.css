@@ -1,0 +1,14 @@
+.cartas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.paginado {
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+  }
+  
+  
