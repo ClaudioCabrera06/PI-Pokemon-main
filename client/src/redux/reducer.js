@@ -33,7 +33,8 @@ import {
         case GET_POKEMON_NAME:
           return {
             ...state,
-            pokemons: [ action.payload ]
+            pokemons: [ action.payload ],
+            paginaactual: 1
           }
            
         case "GET_POKEMON":

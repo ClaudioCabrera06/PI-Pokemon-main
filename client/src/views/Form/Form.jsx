@@ -80,6 +80,7 @@ function Form () {
      };
     const handleSubmit = async (event) => {
         event.preventDefault();
+        if(form.name === "") return alert("Alerta")
         await axios.post("http://localhost:3001/pokemons",form)
         .then(res=>alert(res.data))
         .catch(err=>alert(err))
